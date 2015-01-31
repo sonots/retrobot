@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    retrobot (0.3.1)
+    retrobot (0.3.2)
       activesupport (~> 4.0)
       daemons
       get-twitter-oauth-token
@@ -11,11 +11,11 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.1)
-      i18n (~> 0.6, >= 0.6.9)
+    activesupport (4.2.0)
+      i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.6)
     buftok (0.2.0)
@@ -26,18 +26,18 @@ GEM
       multipart-post (>= 1.2, < 3)
     get-twitter-oauth-token (1.1.0)
       oauth
-    http (0.6.1)
+    http (0.6.2)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
-    i18n (0.6.9)
+    i18n (0.7.0)
     json (1.8.1)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
-    minitest (5.3.4)
+    minitest (5.5.0)
     multipart-post (2.0.0)
     naught (1.0.0)
     oauth (0.4.7)
-    retryable (1.3.5)
+    retryable (1.3.6)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
       rspec-expectations (~> 2.99.0)
@@ -49,7 +49,7 @@ GEM
     simple_oauth (0.2.0)
     thread_safe (0.3.4)
     timecop (0.7.1)
-    twitter (5.10.0)
+    twitter (5.11.0)
       addressable (~> 2.3)
       buftok (~> 0.2.0)
       equalizer (~> 0.0.9)
@@ -60,7 +60,7 @@ GEM
       memoizable (~> 0.4.0)
       naught (~> 1.0)
       simple_oauth (~> 0.2.0)
-    tzinfo (1.2.1)
+    tzinfo (1.2.2)
       thread_safe (~> 0.1)
 
 PLATFORMS
